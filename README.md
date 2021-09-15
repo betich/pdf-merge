@@ -22,10 +22,13 @@ for front covers, name it something low like `-99.pdf`
 
 for back covers, name it something high like: `99.pdf`
 
+![image](https://user-images.githubusercontent.com/28398789/133363214-11461057-5546-44fa-9f92-993dc866b4fe.png)
+
+
 4. run the code
 
 ```
 python3 index.py
 ```
 
-1. have fun!
+5. have fun! the output will be available as `output.pdf`
