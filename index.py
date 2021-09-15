@@ -2,10 +2,12 @@ from glob import glob
 from PyPDF2 import PdfFileMerger
 from os import path
 
+
 def first2(x):
     # src/00.pdf
     print(path.basename(x))
     return(path.basename(x))
+
 
 def pdf_merge():
     ''' Merges all the pdf files in current directory '''
