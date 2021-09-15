@@ -1,6 +1,6 @@
 # pdf merge
 
-a script used to merge all pdf files into one (used for collecting all my classmate's files and combining into one final output)
+a script used to merge pdf files into one single output (used for collecting my classmate's files and combining them into one final document for งานสาธารณประโยชน์)
 
 tl;dr i'm lazy
 
