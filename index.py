@@ -3,8 +3,7 @@ from PyPDF2 import PdfFileMerger
 from os import path
 
 
-def first2(x):
-    # src/00.pdf
+def get_file_name(x):
     print(path.basename(x))
     return(path.basename(x))
 
@@ -12,9 +11,9 @@ def first2(x):
 def pdf_merge():
     ''' Merges all the pdf files in current directory '''
     merger = PdfFileMerger()
-    allpdfs = [a for a in glob("src/*.pdf")]
-    sortedpdfs = sorted(allpdfs, key=first2)
-    [merger.append(pdf) for pdf in sortedpdfs]
+    all_pdfs = [a for a in glob("src/*.pdf")]
+    sorted_pdfs = sorted(all_pdfs, key=get_file_name)
+    [merger.append(pdf) for pdf in sorted_pdfs]
     with open("output.pdf", "wb") as new_file:
         merger.write(new_file)
 
