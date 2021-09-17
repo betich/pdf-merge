@@ -8,10 +8,11 @@ tl;dr i'm lazy
 
 1. install python
 
-2. install PyPDF2
+2. install PyPDF2, img2pdf
 
 ```
 pip3 install PyPDF2
+pip3 install img2pdf
 ```
 
 3. put all pdf files into `src`
@@ -27,8 +28,14 @@ for back covers, name it something high like: `99.pdf`
 
 4. run the code
 
+for merging pdfs
 ```
-python3 index.py
+python3 main.py
+```
+
+for converting images to pdf
+```
+python3 image-to-pdf.py
 ```
 
 5. have fun! the output will be available as `output.pdf`

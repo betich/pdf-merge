@@ -1,3 +1,9 @@
 src/*.pdf
+src/*.jpg
+src/*.png
+src/*.jpeg
+src/*.JPG
+src/*.PNG
+src/*.JPEG
 
 output.pdf
