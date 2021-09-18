@@ -6,7 +6,8 @@ import re
 def get_file_number(x):
     name = path.basename(x)
     res = re.findall(r'[-]?\d+', name)[0] # returns an array of all numbers in a string
-    return(res)
+    print(res.zfill(2))
+    return(res.zfill(2))
 
 
 def pdf_merge():
